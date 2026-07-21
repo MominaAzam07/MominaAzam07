@@ -1,0 +1,79 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05060B"/>
+      <stop offset="100%" stop-color="#0A0E27"/>
+    </linearGradient>
+    <linearGradient id="edgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.05"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="nodeGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="260" rx="16" fill="url(#nnBg)"/>
+
+  <!-- layer positions: input(4) hidden1(6) hidden2(6) output(3) -->
+  <g id="edges" stroke="url(#edgeGrad)" stroke-width="1" fill="none">
+    <!-- input -> hidden1 -->
+    <path d="M120,50 L320,40"/><path d="M120,50 L320,80"/><path d="M120,50 L320,120"/><path d="M120,50 L320,160"/><path d="M120,50 L320,200"/><path d="M120,50 L320,230"/>
+    <path d="M120,105 L320,40"/><path d="M120,105 L320,80"/><path d="M120,105 L320,120"/><path d="M120,105 L320,160"/><path d="M120,105 L320,200"/><path d="M120,105 L320,230"/>
+    <path d="M120,155 L320,40"/><path d="M120,155 L320,80"/><path d="M120,155 L320,120"/><path d="M120,155 L320,160"/><path d="M120,155 L320,200"/><path d="M120,155 L320,230"/>
+    <path d="M120,210 L320,40"/><path d="M120,210 L320,80"/><path d="M120,210 L320,120"/><path d="M120,210 L320,160"/><path d="M120,210 L320,200"/><path d="M120,210 L320,230"/>
+    <!-- hidden1 -> hidden2 -->
+    <path d="M320,40 L560,40"/><path d="M320,40 L560,90"/><path d="M320,40 L560,140"/><path d="M320,40 L560,190"/><path d="M320,40 L560,230"/>
+    <path d="M320,120 L560,40"/><path d="M320,120 L560,90"/><path d="M320,120 L560,140"/><path d="M320,120 L560,190"/><path d="M320,120 L560,230"/>
+    <path d="M320,200 L560,40"/><path d="M320,200 L560,90"/><path d="M320,200 L560,140"/><path d="M320,200 L560,190"/><path d="M320,200 L560,230"/>
+    <!-- hidden2 -> output -->
+    <path d="M560,40 L780,70"/><path d="M560,90 L780,70"/><path d="M560,140 L780,130"/><path d="M560,190 L780,190"/><path d="M560,230 L780,190"/>
+  </g>
+
+  <!-- pulses travelling along a few key edges -->
+  <g fill="#E9F8FF">
+    <circle r="3"><animateMotion dur="2.6s" repeatCount="indefinite" path="M120,50 L320,80"/></circle>
+    <circle r="3"><animateMotion dur="3.1s" repeatCount="indefinite" path="M320,120 L560,140"/></circle>
+    <circle r="3"><animateMotion dur="2.3s" repeatCount="indefinite" path="M560,190 L780,190"/></circle>
+    <circle r="3"><animateMotion dur="2.9s" repeatCount="indefinite" path="M120,155 L320,200"/></circle>
+    <circle r="3"><animateMotion dur="3.4s" repeatCount="indefinite" path="M320,200 L560,90"/></circle>
+  </g>
+
+  <!-- nodes -->
+  <g font-family="monospace">
+    <!-- input layer -->
+    <g fill="#22D3EE" filter="url(#nodeGlow)">
+      <circle cx="120" cy="50" r="7"><animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="105" r="7"><animate attributeName="r" values="6;8;6" dur="2.3s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="155" r="7"><animate attributeName="r" values="6;8;6" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="210" r="7"><animate attributeName="r" values="6;8;6" dur="2.5s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- hidden 1 -->
+    <g fill="#A855F7" filter="url(#nodeGlow)">
+      <circle cx="320" cy="40" r="6"><animate attributeName="r" values="5;7;5" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="320" cy="80" r="6"><animate attributeName="r" values="5;7;5" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="320" cy="120" r="6"><animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="320" cy="160" r="6"><animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="320" cy="200" r="6"><animate attributeName="r" values="5;7;5" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="320" cy="230" r="6"><animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- hidden 2 -->
+    <g fill="#7C3AED" filter="url(#nodeGlow)">
+      <circle cx="560" cy="40" r="6"><animate attributeName="r" values="5;7;5" dur="2.3s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="90" r="6"><animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="140" r="6"><animate attributeName="r" values="5;7;5" dur="2.5s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="190" r="6"><animate attributeName="r" values="5;7;5" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="230" r="6"><animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- output -->
+    <g fill="#22D3EE" filter="url(#nodeGlow)">
+      <circle cx="780" cy="70" r="8"><animate attributeName="r" values="7;9;7" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="780" cy="130" r="8"><animate attributeName="r" values="7;9;7" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="780" cy="190" r="8"><animate attributeName="r" values="7;9;7" dur="1.8s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <text x="30" y="252" font-family="'JetBrains Mono',monospace" font-size="13" fill="#4B5A78">forward_pass(x) &#8594; model.layers[1..4] &#8594; logits</text>
+</svg>

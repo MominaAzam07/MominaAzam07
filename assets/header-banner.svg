@@ -1,0 +1,110 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05060B"/>
+      <stop offset="45%" stop-color="#0A0E27"/>
+      <stop offset="100%" stop-color="#120A2E"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="55%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-1 0; 1 0; -1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#7C3AED" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="glowSmall" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="320" fill="url(#bgGrad)"/>
+
+  <!-- ambient glow blobs -->
+  <circle cx="180" cy="80" r="140" fill="#7C3AED" opacity="0.18" filter="url(#softBlur)">
+    <animate attributeName="r" values="120;150;120" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.14;0.24;0.14" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="240" r="160" fill="#22D3EE" opacity="0.14" filter="url(#softBlur)">
+    <animate attributeName="r" values="140;175;140" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- circuit lines -->
+  <g stroke="#22D3EE" stroke-width="1" opacity="0.35" fill="none">
+    <path d="M0,60 H220 L260,100 H520">
+      <animate attributeName="stroke-dasharray" values="0,900;900,0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1200,40 H980 L940,80 H700">
+      <animate attributeName="stroke-dasharray" values="0,900;900,0" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,270 H160 L200,230 H420 L460,270 H640">
+      <animate attributeName="stroke-dasharray" values="0,900;900,0" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1200,290 H1040 L1000,250 H820">
+      <animate attributeName="stroke-dasharray" values="0,900;900,0" dur="4.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#22D3EE">
+    <circle cx="220" cy="60" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="100" r="3"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="40" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="80" r="3"><animate attributeName="opacity" values="1;0.2;1" dur="1.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- floating particles -->
+  <g fill="#A855F7">
+    <circle cx="140" cy="260" r="2.5"><animate attributeName="cy" values="260;180;260" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="290" r="2"><animate attributeName="cy" values="290;150;290" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="11s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="40" r="2"><animate attributeName="cy" values="40;220;40" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="300" r="2.5"><animate attributeName="cy" values="300;120;300" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="12s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- neural core, right side -->
+  <g transform="translate(1030,160)">
+    <circle r="90" fill="url(#coreGlow)">
+      <animate attributeName="r" values="80;95;80" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#E9F8FF" filter="url(#glowSmall)"/>
+    <g stroke="#22D3EE" stroke-width="1" opacity="0.6">
+      <line x1="0" y1="0" x2="60" y2="-25"/>
+      <line x1="0" y1="0" x2="-55" y2="-35"/>
+      <line x1="0" y1="0" x2="45" y2="45"/>
+      <line x1="0" y1="0" x2="-50" y2="40"/>
+      <line x1="0" y1="0" x2="0" y2="-65"/>
+    </g>
+    <g fill="#A855F7">
+      <circle cx="60" cy="-25" r="4"><animate attributeName="r" values="3;5;3" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="-55" cy="-35" r="4"><animate attributeName="r" values="3;5;3" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="45" cy="45" r="4"><animate attributeName="r" values="3;5;3" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="-50" cy="40" r="4"><animate attributeName="r" values="3;5;3" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="0" cy="-65" r="4"><animate attributeName="r" values="3;5;3" dur="2.3s" repeatCount="indefinite"/></circle>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" from="0 1030 160" to="360 1030 160" dur="40s" repeatCount="indefinite" additive="sum"/>
+  </g>
+
+  <!-- name -->
+  <text x="70" y="150" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="58" font-weight="700" fill="url(#textGrad)" filter="url(#glowSmall)">MOMINA AZAM</text>
+  <text x="72" y="195" font-family="'JetBrains Mono',monospace" font-size="19" fill="#8AA0C2" letter-spacing="2">SOFTWARE DEVELOPER&#160;&#8594;&#160;AI ENGINEER</text>
+
+  <!-- underline accent -->
+  <rect x="72" y="210" width="0" height="3" fill="url(#textGrad)">
+    <animate attributeName="width" values="0;340;340" dur="2.4s" fill="freeze"/>
+  </rect>
+</svg>
