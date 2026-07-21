@@ -1,0 +1,134 @@
+<svg width="1180" height="460" viewBox="0 0 1180 460" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="idBg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#05060B"/><stop offset="100%" stop-color="#0A0E27"/>
+</linearGradient>
+<linearGradient id="edgeGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#7C3AED" stop-opacity="0.06"/>
+<stop offset="50%" stop-color="#22D3EE" stop-opacity="0.45"/>
+<stop offset="100%" stop-color="#22D3EE" stop-opacity="0.06"/>
+</linearGradient>
+<filter id="chipGlow" x="-40%" y="-40%" width="180%" height="180%">
+<feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<rect width="1180" height="460" rx="16" fill="url(#idBg)"/>
+<text x="180" y="34" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" letter-spacing="2" fill="#5B6B8C">INPUT · TRAITS</text>
+<text x="450" y="34" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" letter-spacing="2" fill="#5B6B8C">FOUNDATION</text>
+<text x="750" y="34" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" letter-spacing="2" fill="#5B6B8C">SPECIALIZATION</text>
+<text x="1040" y="34" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" letter-spacing="2" fill="#5B6B8C">OUTPUT · IMPACT</text>
+<g stroke="url(#edgeGrad2)" stroke-width="1" fill="none">
+<path d="M290,87 C315,87 315,87 340,87"/>
+<path d="M290,87 C315,87 315,417 340,417"/>
+<path d="M290,197 C315,197 315,87 340,87"/>
+<path d="M290,197 C315,197 315,417 340,417"/>
+<path d="M290,307 C315,307 315,87 340,87"/>
+<path d="M290,307 C315,307 315,417 340,417"/>
+<path d="M290,417 C315,417 315,87 340,87"/>
+<path d="M290,417 C315,417 315,417 340,417"/>
+<path d="M560,87 C600,87 600,87 640,87"/>
+<path d="M560,87 C600,87 600,252 640,252"/>
+<path d="M560,87 C600,87 600,417 640,417"/>
+<path d="M560,417 C600,417 600,87 640,87"/>
+<path d="M560,417 C600,417 600,252 640,252"/>
+<path d="M560,417 C600,417 600,417 640,417"/>
+<path d="M860,87 C895,87 895,87 930,87"/>
+<path d="M860,87 C895,87 895,252 930,252"/>
+<path d="M860,87 C895,87 895,417 930,417"/>
+<path d="M860,252 C895,252 895,87 930,87"/>
+<path d="M860,252 C895,252 895,252 930,252"/>
+<path d="M860,252 C895,252 895,417 930,417"/>
+<path d="M860,417 C895,417 895,87 930,87"/>
+<path d="M860,417 C895,417 895,252 930,252"/>
+<path d="M860,417 C895,417 895,417 930,417"/>
+</g>
+<circle r="3.2" fill="#E9F8FF" filter="url(#chipGlow)"><animateMotion dur="3.6s" begin="0.0s" repeatCount="indefinite" path="M290,87 C315,87 315,87 340,87 L560,87 C600,87 600,87 640,87 L860,87 C895,87 895,87 930,87"/></circle>
+<circle r="3.2" fill="#E9F8FF" filter="url(#chipGlow)"><animateMotion dur="3.6s" begin="0.9s" repeatCount="indefinite" path="M290,197 C315,197 315,417 340,417 L560,417 C600,417 600,252 640,252 L860,252 C895,252 895,252 930,252"/></circle>
+<circle r="3.2" fill="#E9F8FF" filter="url(#chipGlow)"><animateMotion dur="3.6s" begin="1.8s" repeatCount="indefinite" path="M290,307 C315,307 315,87 340,87 L560,87 C600,87 600,417 640,417 L860,417 C895,417 895,417 930,417"/></circle>
+<circle r="3.2" fill="#E9F8FF" filter="url(#chipGlow)"><animateMotion dur="3.6s" begin="2.7s" repeatCount="indefinite" path="M290,417 C315,417 315,417 340,417 L560,417 C600,417 600,87 640,87 L860,87 C895,87 895,87 930,87"/></circle>
+<g filter="url(#chipGlow)">
+<rect x="70" y="70" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#A855F7" stroke-opacity="0.55"/>
+<circle cx="87" cy="87" r="4.5" fill="#A855F7">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="102" y="91" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Curiosity</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="70" y="180" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#A855F7" stroke-opacity="0.55"/>
+<circle cx="87" cy="197" r="4.5" fill="#A855F7">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="102" y="201" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Discipline</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="70" y="290" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#A855F7" stroke-opacity="0.55"/>
+<circle cx="87" cy="307" r="4.5" fill="#A855F7">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="102" y="311" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Persistence</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="70" y="400" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#A855F7" stroke-opacity="0.55"/>
+<circle cx="87" cy="417" r="4.5" fill="#A855F7">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="102" y="421" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Detail-Oriented</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="340" y="70" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#7C3AED" stroke-opacity="0.55"/>
+<circle cx="357" cy="87" r="4.5" fill="#7C3AED">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="372" y="91" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Full-Stack Engineering</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="340" y="400" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#7C3AED" stroke-opacity="0.55"/>
+<circle cx="357" cy="417" r="4.5" fill="#7C3AED">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="372" y="421" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Problem Solving</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="640" y="70" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#22D3EE" stroke-opacity="0.55"/>
+<circle cx="657" cy="87" r="4.5" fill="#22D3EE">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="672" y="91" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Computer Vision</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="640" y="235" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#22D3EE" stroke-opacity="0.55"/>
+<circle cx="657" cy="252" r="4.5" fill="#22D3EE">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="672" y="256" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Applied ML</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="640" y="400" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#22D3EE" stroke-opacity="0.55"/>
+<circle cx="657" cy="417" r="4.5" fill="#22D3EE">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="672" y="421" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Automation</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="930" y="70" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#5EEAD4" stroke-opacity="0.55"/>
+<circle cx="947" cy="87" r="4.5" fill="#5EEAD4">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="962" y="91" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Shipped Products</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="930" y="235" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#5EEAD4" stroke-opacity="0.55"/>
+<circle cx="947" cy="252" r="4.5" fill="#5EEAD4">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="962" y="256" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Reproducible Research</text>
+</g>
+<g filter="url(#chipGlow)">
+<rect x="930" y="400" width="220" height="34" rx="17" fill="#0B0E1D" stroke="#5EEAD4" stroke-opacity="0.55"/>
+<circle cx="947" cy="417" r="4.5" fill="#5EEAD4">
+<animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="962" y="421" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E9F8FF">Real-World Impact</text>
+</g>
+<text x="30" y="444" font-family="'JetBrains Mono',monospace" font-size="12" fill="#4B5A78">forward_pass(traits) &#8594; foundation &#215; specialization &#8594; real_world_impact</text>
+</svg>
