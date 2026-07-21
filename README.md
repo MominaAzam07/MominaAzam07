@@ -44,7 +44,8 @@ I design and ship systems at the intersection of **computer vision, applied mach
 
 <div align="center">
 
-### Neural Signal
+### Animated Neural Signal 
+*How the traits turn into the work!*
 
 <img src="./assets/neural-network.svg" width="100%" alt="animated neural network" />
 
@@ -197,13 +198,29 @@ Automated attendance system built with a focus on reliability over cleverness.
 <div align="center">
 
 ### 📦 Public Repositories
-
-[![Real-Time Chat Application](https://github-readme-stats.vercel.app/api/pin/?username=MominaAzam07&repo=Real-Time-Chat-Application&theme=tokyonight&bg_color=05060B&title_color=22D3EE&icon_color=A855F7&text_color=E9F8FF&border_color=22D3EE)](https://github.com/MominaAzam07/Real-Time-Chat-Application)
-[![Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=MominaAzam07&repo=momina_portfolio&theme=tokyonight&bg_color=05060B&title_color=22D3EE&icon_color=A855F7&text_color=E9F8FF&border_color=22D3EE)](https://github.com/MominaAzam07/momina_portfolio)
-[![Xylophone Flutter](https://github-readme-stats.vercel.app/api/pin/?username=MominaAzam07&repo=Xylophone_using_flutter&theme=tokyonight&bg_color=05060B&title_color=22D3EE&icon_color=A855F7&text_color=E9F8FF&border_color=22D3EE)](https://github.com/MominaAzam07/Xylophone_using_flutter)
-
+ 
+<table width="100%">
+<tr>
+<td align="center" width="33%">
+<a href="https://github.com/MominaAzam07/Real-Time-Chat-Application"><img src="./assets/cover-chat-app.svg" width="100%" alt="Real-Time Chat Application"/></a>
+<br/><br/>
+<a href="https://github.com/MominaAzam07/Real-Time-Chat-Application"><img src="https://img.shields.io/badge/REAL--TIME_CHAT_APP-0A0E27?style=for-the-badge&logoColor=22D3EE&labelColor=0A0E27&color=0A0E27" /></a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/MominaAzam07/momina_portfolio"><img src="./assets/cover-portfolio.svg" width="100%" alt="Portfolio"/></a>
+<br/><br/>
+<a href="https://github.com/MominaAzam07/momina_portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-0A0E27?style=for-the-badge&logoColor=5EEAD4&labelColor=0A0E27&color=0A0E27" /></a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/MominaAzam07/Xylophone_using_flutter"><img src="./assets/cover-xylophone.svg" width="100%" alt="Xylophone (Flutter)"/></a>
+<br/><br/>
+<a href="https://github.com/MominaAzam07/Xylophone_using_flutter"><img src="https://img.shields.io/badge/XYLOPHONE-0A0E27?style=for-the-badge&logoColor=A855F7&labelColor=0A0E27&color=0A0E27" /></a>
+</td>
+</tr>
+</table>
+<br/>
+ 
 </div>
-
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=30&section=header"/>
 
 <!-- ============================================= -->
@@ -211,20 +228,14 @@ Automated attendance system built with a focus on reliability over cleverness.
 <!-- ============================================= -->
 
 ## 05 — Live Metrics
-
+ 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=MominaAzam07&show_icons=true&theme=tokyonight&bg_color=05060B&title_color=22D3EE&icon_color=A855F7&text_color=E9F8FF&border_color=22D3EE&hide_border=false&count_private=true" height="165" alt="github stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MominaAzam07&layout=compact&theme=tokyonight&bg_color=05060B&title_color=22D3EE&text_color=E9F8FF&border_color=22D3EE&hide_border=false" height="165" alt="top languages"/>
-
+<img src="https://github-stats-extended.vercel.app/api?username=MominaAzam07&show_icons=true&theme=tokyonight&bg_color=05060B&title_color=22D3EE&icon_color=A855F7&text_color=E9F8FF&border_color=22D3EE&hide_border=false&count_private=true" height="165" alt="github stats"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=MominaAzam07&layout=compact&theme=tokyonight&bg_color=05060B&title_color=22D3EE&text_color=E9F8FF&border_color=22D3EE&hide_border=false" height="165" alt="top languages"/>
 <img src="https://streak-stats.demolab.com?user=MominaAzam07&theme=tokyonight&background=05060B&stroke=22D3EE&ring=A855F7&fire=22D3EE&currStreakLabel=22D3EE&border=22D3EE" alt="streak stats"/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=MominaAzam07&theme=react-dark&bg_color=05060B&color=22D3EE&line=A855F7&point=E9F8FF&hide_border=true" width="100%" alt="contribution graph"/>
-
 <img src="https://komarev.com/ghpvc/?username=MominaAzam07&label=PROFILE+VIEWS&color=7C3AED&style=for-the-badge" alt="profile views"/>
-
 </div>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:120A2E,50:0A0E27,100:05060B&height=50&section=header" width="100%"/>
 
 <!-- ============================================= -->
@@ -247,13 +258,12 @@ Automated attendance system built with a focus on reliability over cleverness.
 <!-- ============================================= -->
 
 ## 🏆 Achievements
-
+ 
 <div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=MominaAzam07&theme=darkhub&no-frame=true&margin-w=8&margin-h=8&column=7" alt="trophies"/>
-
+<img src="https://img.shields.io/github/followers/MominaAzam07?label=FOLLOWERS&style=for-the-badge&labelColor=0A0E27&color=0A0E27&logo=github&logoColor=22D3EE" alt="followers"/>
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMominaAzam07&query=%24.public_repos&label=PUBLIC%20REPOS&style=for-the-badge&labelColor=0A0E27&color=0A0E27&logo=github&logoColor=A855F7" alt="public repos"/>
+<img src="https://img.shields.io/badge/PRO-0A0E27?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logo=github&logoColor=5EEAD4" alt="github pro"/>
 </div>
-
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=20&section=header"/>
 
 <!-- ============================================= -->
