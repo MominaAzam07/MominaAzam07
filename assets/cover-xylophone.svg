@@ -1,0 +1,26 @@
+<svg width="640" height="300" viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#05060B"/><stop offset="100%" stop-color="#0A0E27"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#A855F7" stop-opacity="0.35"/>
+<stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+</radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="26"/></filter>
+<linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#A855F7"/><stop offset="100%" stop-color="#7C3AED"/>
+</linearGradient>
+</defs>
+<rect width="640" height="300" rx="18" fill="url(#bg)"/>
+<circle cx="500" cy="90" r="140" fill="url(#glow)" filter="url(#blur)">
+<animate attributeName="r" values="120;150;120" dur="6s" repeatCount="indefinite"/>
+</circle>
+<g stroke="#A855F7" stroke-width="1" opacity="0.18" fill="none">
+<path d="M0,40 H160 L195,75 H420"/><path d="M640,260 H480 L445,225 H220"/>
+</g>
+<g transform="translate(0,15)"><rect x="60" y="90" width="18" height="70" rx="6" fill="#A855F7" opacity="0.9"><animate attributeName="height" values="0;70" dur="0.8s" begin="0.00s" fill="freeze"/><animate attributeName="y" values="160;90" dur="0.8s" begin="0.00s" fill="freeze"/></rect><rect x="86" y="75" width="18" height="85" rx="6" fill="#7C3AED" opacity="0.9"><animate attributeName="height" values="0;85" dur="0.8s" begin="0.08s" fill="freeze"/><animate attributeName="y" values="160;75" dur="0.8s" begin="0.08s" fill="freeze"/></rect><rect x="112" y="100" width="18" height="60" rx="6" fill="#22D3EE" opacity="0.9"><animate attributeName="height" values="0;60" dur="0.8s" begin="0.16s" fill="freeze"/><animate attributeName="y" values="160;100" dur="0.8s" begin="0.16s" fill="freeze"/></rect><rect x="138" y="65" width="18" height="95" rx="6" fill="#5EEAD4" opacity="0.9"><animate attributeName="height" values="0;95" dur="0.8s" begin="0.24s" fill="freeze"/><animate attributeName="y" values="160;65" dur="0.8s" begin="0.24s" fill="freeze"/></rect><rect x="164" y="110" width="18" height="50" rx="6" fill="#22D3EE" opacity="0.9"><animate attributeName="height" values="0;50" dur="0.8s" begin="0.32s" fill="freeze"/><animate attributeName="y" values="160;110" dur="0.8s" begin="0.32s" fill="freeze"/></rect><rect x="190" y="80" width="18" height="80" rx="6" fill="#A855F7" opacity="0.9"><animate attributeName="height" values="0;80" dur="0.8s" begin="0.40s" fill="freeze"/><animate attributeName="y" values="160;80" dur="0.8s" begin="0.40s" fill="freeze"/></rect></g>
+<text x="48" y="215" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="30" font-weight="700" fill="url(#txt)">Xylophone (Flutter)</text>
+<text x="50" y="245" font-family="'JetBrains Mono',monospace" font-size="14" fill="#8AA0C2">Interactive audio &#183; mobile UI</text>
+<rect x="48" y="258" width="0" height="2.5" fill="url(#txt)"><animate attributeName="width" values="0;180" dur="1.4s" fill="freeze"/></rect>
+</svg>
