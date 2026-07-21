@@ -44,7 +44,7 @@ I design and ship systems at the intersection of **computer vision, applied mach
 
 <div align="center">
 
-### 🧬 Neural Signal
+### Neural Signal
 
 <img src="./assets/neural-network.svg" width="100%" alt="animated neural network" />
 
